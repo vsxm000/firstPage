@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="play-circle" unicode="&#59265;" d="M512 832C264.6 832 64 631.4 64 384s200.6-448 448-448 448 200.6 448 448S759.4 832 512 832z m0-820c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zM719.4 396.9l-296.1 215c-10.6 7.7-25.3 0.2-25.3-12.9v-430c0-13.1 14.8-20.5 25.3-12.9l296.1 215c8.8 6.4 8.8 19.4 0 25.8z m-257.6-134V505.1L628.5 384 461.8 262.9z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*CSS的初始化*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    color: #999999;
+    font-family: "微软雅黑";
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #676767;
+}
+a:hover{
+    color: #e69800;
+}
+.active {
+    color: #e69800;
+}
+input,img{
+    border: 0 none;
+    outline-style: none;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+i,s{
+    font-style: normal;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+
+
+
+
+

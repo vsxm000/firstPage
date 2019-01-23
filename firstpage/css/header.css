@@ -1,0 +1,178 @@
+/* 顶部图片 */
+.body {
+    position: relative;
+}
+.top_pic {
+    width: 100%;
+    height: 39px;
+    border: 1px solid #c9c9c9;
+ 
+}
+.top_pic .top_box {
+    width: 970px;
+    margin: 0 auto;
+}
+/* 顶部左侧部分 */
+.top_pic  .top_pic_left {
+    position: relative;
+}
+.top_pic  .top_pic_left a:nth-child(1){
+    display: block;
+    width: 230px;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+    background: url(../imgs/ost-bg.png) no-repeat 0 -40px;
+}
+
+.top_pic  .top_pic_left a:nth-child(2){
+    display: block;
+    width: 230px;
+    height: 40px;
+}
+
+
+/* 顶部右侧 */
+.top_pic .top_pic_right a:nth-child(1) {
+    display: block;
+    position: relative;
+    line-height: 40px;
+    width: 118px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.top_pic .top_pic_right a:nth-child(1)::before {
+    content: " ";
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 11px;
+    background: url(../imgs/logo.png) no-repeat;
+}
+.top_pic .top_pic_right a:nth-child(2) {
+    display: block;
+    line-height: 40px;
+    width: 118px;
+    position: relative;
+}
+.top_pic .top_pic_right a:nth-child(2)::after {
+    content: " ";
+    display: block;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    background: url(../imgs/ost-bg.png) no-repeat -150px -134px;
+}
+.top_pic .top_pic_right a:nth-child(2):hover::after{
+
+    background-position: -170px -134px;
+}
+
+.top_pic .top_pic_right a:nth-child(2) .top_rank {
+    display: block;
+    width: 697px;
+    height: 458px;
+    position: absolute;
+    right: -7px;
+    top: 41px;
+    display: none;
+    z-index: 6;
+}
+.top_pic .top_pic_right a:nth-child(2):hover .top_rank{
+    display: block;
+}
+
+/* 顶部显示活动大图 */
+.top_pic .top_box .activity_big {
+    width: 970px;
+    height: 185px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 1;
+}
+
+/* 顶部导航列表 */
+.top_nav {
+    width: 100%;
+    height: 88px;
+    background: url(../imgs/bg_top.png) no-repeat 50% 0; 
+    z-index: 5;
+}
+.fix {
+    position: fixed;
+    /* left: 0;
+    top: 0; */
+}
+.top_nav  .logo a {
+    width: 142px;
+    height: 69px;
+    display: block;
+    background: url(../imgs/nav_spr.png) no-repeat 0 -132px;
+    text-indent: -2000px;
+    margin-top: 4px;
+}
+.top_nav .nav_list {
+    margin-top: 18px;
+    height: 50px;
+    width: 800px;
+    margin-left: 50px;
+    background-color: #000;
+}
+.top_nav .nav_list li {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s linear;
+}
+
+.top_nav .nav_list li a {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    color: #ccc;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    background-color: #000;
+}
+.top_nav .nav_list li a:last-child {
+  
+    transform: translateZ(25px);
+}
+
+.top_nav .nav_list li a:first-child{
+    background-color: #e69800;
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+
+.top_nav .nav_list li:hover {
+     transform: rotateX(-90deg);
+}
+.top_nav .nav_list li .tou{
+    color: #e69800;
+}
+.top_nav .nav_list li:nth-child(1):hover {
+    transform: rotateX(0deg);
+}
+.top_nav .login {
+    margin-top: 18px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+}
+.top_nav .login .active{
+    color: #e69800;
+}
+

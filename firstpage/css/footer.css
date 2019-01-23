@@ -1,0 +1,74 @@
+/* 返回顶部按钮 */
+.actGotop{
+	position:fixed;
+	_position:absolute;
+	bottom:100px;
+	right:50px;
+	width:150px;
+	height:195px;
+    display:none;
+    z-index: 10;
+}
+
+.actGotop a,.actGotop a:link{
+	width:150px;
+	height:195px;
+    display:inline-block;
+	background:url(../imgs/blog7year_gotop.png) no-repeat;
+	_background:url(../imgs/blog7year_gotop.gif) no-repeat;
+	outline:none;
+}
+
+.actGotop a:hover{
+	background:url(../imgs/blog7year_gotopd.gif) no-repeat;
+	outline:none;
+}
+
+
+
+
+
+/* 结尾部分 */
+.footer {
+    width: 100%;
+    height: 140px;
+    background-color: #000;
+}
+.footer .wrap {
+    margin-top: 20px;
+}
+.footer .w  a {
+    color: #676767;
+    font-size: 12px;
+}
+.footer .w  .foot_ieg_logo {
+    width: 170px;
+    height: 70px;
+    display: block;
+    text-indent: -2000px;
+    margin: 40px 20px 0 0px;
+    background: url(../imgs/foot-dark.png) no-repeat;
+}
+
+.footer .w  .gfooter_selflogo {
+    width: 66px;
+    height: 56px;
+    display: block;
+    background: url(../imgs/nav_spr.png) no-repeat -627px -172px;
+    margin: 30px 0 0 10px;
+} 
+
+.footer .foot_links {
+    margin: 30px 0 0 50px;
+}
+.footer .foot_links li {
+    line-height: 20px;
+}
+.footer .foot_links .f_line {
+    margin: 0 2px;
+}
+.footer .foot_links .copyright_txt {
+    font-size: 10px;
+    color: #676767;
+}
+
